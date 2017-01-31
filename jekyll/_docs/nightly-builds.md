@@ -74,7 +74,8 @@ post_data=$(cat <<EOF
     "FUNCTIONAL_TEST_TARGET": "staging-dawn-435.herokuapp.com"
   }
 }
-EOF)
+EOF
+)
 
 curl \
 --header "Accept: application/json" \
